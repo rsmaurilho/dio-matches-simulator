@@ -40,11 +40,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/margin_default"
-            tools:text="99"
             app:layout_constraintBottom_toBottomOf="@+id/ivHomeTeam"
             app:layout_constraintEnd_toStartOf="@+id/tvVersus"
             app:layout_constraintStart_toEndOf="@+id/ivHomeTeam"
-            app:layout_constraintTop_toTopOf="@+id/ivHomeTeam" />
+            app:layout_constraintTop_toTopOf="@+id/ivHomeTeam"
+            tools:text="9" />
 
         <TextView
             android:id="@+id/tvVersus"
@@ -81,10 +81,11 @@
             android:id="@+id/tvAwayTeamScore"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:text="99"
+            android:layout_marginEnd="16dp"
             app:layout_constraintBottom_toBottomOf="@+id/ivAwayTeam"
             app:layout_constraintEnd_toStartOf="@+id/ivAwayTeam"
             app:layout_constraintStart_toEndOf="@+id/tvVersus"
-            app:layout_constraintTop_toTopOf="@+id/ivAwayTeam" />
+            app:layout_constraintTop_toTopOf="@+id/ivAwayTeam"
+            tools:text="9" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.cardview.widget.CardView>
